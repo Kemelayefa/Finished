@@ -1,0 +1,223 @@
+
+body{
+
+    background-size:cover;
+
+    background-repeat:no-repeat;
+
+    height:3000px;
+
+}
+
+.header{
+
+    display:flex;
+
+    height:50px;
+
+    background-color:white;
+
+    position:fixed;
+
+    top:0px;
+
+    left:0px;
+
+    right:0px;
+
+    border:2px solid grey;
+    z-index:1000;
+
+    
+
+}
+
+.grid {
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr 1fr 1fr;
+
+    margin-top:60px;
+
+    column-gap:20px;
+
+    height:230px;
+
+    row-gap:20px;
+
+}    
+
+.grid-column{
+
+    background-color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    border-radius:20px;
+
+       box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+
+    
+
+    
+
+    
+
+        
+
+}
+
+.goodgrid{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+.goods{
+
+    width:100px;
+
+    height100px;
+
+    opacity:0.5;
+
+}
+
+.purple{
+
+    display:flex;
+
+    flex-direction:column;
+
+    background-color:purple;
+
+    height:97px;
+
+    width:180px;
+
+    border-radius:20px;
+    margin-left:3px;
+    margin-right:3px;
+
+} 
+
+.about1{
+
+    color:white;
+
+    padding-left:15px;
+
+    padding-top:15px;
+
+    font-weight:bold;
+
+        
+
+}
+
+.about2{
+
+    color:white;
+
+    padding-left:15px;
+
+    font-size:10px;
+
+    padding-top:2px;
+
+    
+
+}
+
+.column{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    margin-left:15px;
+
+    margin-right:15px;
+
+    
+
+}
+
+.color1{
+
+    
+
+    margin-top:15px;
+
+    
+
+    font-size:14px;
+
+    font-weight:bold;
+
+    color:white;
+
+    
+
+}
+
+.colorflex{
+
+    display:flex;
+
+    flex-direction:row;
+
+    margin-left:50px;
+
+    
+
+    
+
+    
+
+}
+
+.plus{
+
+    width:40px;
+
+    border-radius:20px;
+
+    opacity:0.6;
+
+    margin-left:-6px;
+
+    margin-bottom:-1px;
+
+    margin-top:-1px;
+
+    
+
+} 
+
+.color2{
+
+    
+
+    width:40px;
+
+    border-radius:20px;
+
+    border:none;
+
+       box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}  
