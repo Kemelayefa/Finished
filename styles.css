@@ -82,7 +82,7 @@ body{
 
 .goods{
     width:100px;
-    height100px;
+    
     
     opacity:0.7;
 
@@ -103,7 +103,7 @@ body{
     border-radius:20px;
     margin-left:3px;
     margin-right:3px;
-    padding-bottom:3px;
+    padding-bottom:6px;
 
 } 
 
